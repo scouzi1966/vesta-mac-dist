@@ -1,0 +1,76 @@
+name: Build and Release Vesta
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to build (e.g., 0.3.4)'
+        required: true
+        type: string
+      prerelease:
+        description: 'Mark as prerelease'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  build-and-release:
+    runs-on: self-hosted
+    
+    steps:
+    - name: Checkout vesta-mac repository
+      uses: actions/checkout@v4
+      with:
+        repository: scouzi1966/vesta-mac
+        token: ${{ secrets.VESTA_REPO_TOKEN }}
+        path: vesta-mac
+        
+    - name: Checkout vesta-mac-dist repository
+      uses: actions/checkout@v4
+      with:
+        path: vesta-mac/vesta-mac-dist
+        
+    - name: Validate version format
+      run: |
+        VERSION="${{ github.event.inputs.version }}"
+        if [[ ! "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+          echo "❌ Invalid version format. Use x.y.z (e.g., 0.3.4)"
+          exit 1
+        fi
+        echo "✅ Version format valid: $VERSION"
+        
+    - name: Set up environment
+      run: |
+        echo "VESTA_VERSION=${{ github.event.inputs.version }}" >> $GITHUB_ENV
+        echo "DMG_NAME=Vesta-${{ github.event.inputs.version }}.dmg" >> $GITHUB_ENV
+        
+    - name: Build and create release
+      run: |
+        cd vesta-mac
+        ./vesta-mac-dist/build-vesta-mac-dist.sh "${{ github.event.inputs.version }}"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Mark as prerelease (if requested)
+      if: ${{ github.event.inputs.prerelease == 'true' }}
+      run: |
+        cd vesta-mac/vesta-mac-dist
+        gh release edit "v${{ github.event.inputs.version }}" --prerelease
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: vesta-${{ github.event.inputs.version }}-dmg
+        path: vesta-mac/build/Vesta-${{ github.event.inputs.version }}.dmg
+        retention-days: 30
+        
+    - name: Summary
+      run: |
+        echo "## 🎉 Build Complete!" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "**Version:** ${{ github.event.inputs.version }}" >> $GITHUB_STEP_SUMMARY
+        echo "**DMG:** Vesta-${{ github.event.inputs.version }}.dmg" >> $GITHUB_STEP_SUMMARY
+        echo "**Release:** [Download](https://github.com/scouzi1966/vesta-mac-dist/releases/tag/v${{ github.event.inputs.version }})" >> $GITHUB_STEP_SUMMARY
+        echo "**Prerelease:** ${{ github.event.inputs.prerelease }}" >> $GITHUB_STEP_SUMMARY

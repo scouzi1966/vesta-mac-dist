@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Xcode
+*.xcworkspace/
+DerivedData/
+.swiftpm/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Build artifacts
+build/
+*.dmg
+
+# Temporary files
+*.tmp
+*.temp
+*.log
