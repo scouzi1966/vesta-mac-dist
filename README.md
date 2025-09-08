@@ -45,44 +45,18 @@ All releases are code-signed with Developer ID and notarized by Apple for securi
 - **Microphone Privacy** - Voice input processed locally, never transmitted
 - **Transparent Permissions** - Clear explanations for all requested permissions
 
-## 🛠 Build Information
-
-This repository contains the automated build and distribution pipeline for Vesta:
-
-- **Main Script**: `build-vesta-mac-dist.sh` - Complete build automation
-- **GitHub Actions**: `.github/workflows/release.yml` - Automated releases
-- **Helper Scripts**: `scripts/` - Version management utilities
-
-### Build Process
-1. Version number updates (Info.plist, About dialog)
-2. Clean build with Xcode Beta
-3. Developer ID code signing
-4. Apple notarization
-5. DMG creation with professional layout
-6. GitHub release with DMG attachment (no source tarball)
-
 ## 📖 Usage
 
 ### For End Users
 Simply download the DMG from the releases page and install normally.
 
 ### For Developers
-```bash
-# Build a new version
-./build-vesta-mac-dist.sh 0.3.4
-
-# Update version numbers only
-./scripts/update-version.sh 0.3.4
-
-# Trigger GitHub Actions build
-gh workflow run release.yml -f version=0.3.4
-```
+This is a distribution-only repository. Build automation is handled from the main development repository.
 
 ## 🔗 Related Repositories
 
-- **Source Code**: Private development repository
-- **Build Scripts**: Private build automation repository
-- **Distribution**: This repository (public downloads)
+- **Source Code**: Private development repository (contains all source code and build scripts)
+- **Distribution**: This repository (public downloads only)
 
 ## 📊 Release History
 
