@@ -66,9 +66,14 @@ See [Releases](https://github.com/scouzi1966/vesta-mac-dist/releases) for comple
 
 For support, feature requests, or bug reports:
 
-1. Check existing [releases](https://github.com/scouzi1966/vesta-mac-dist/releases) for known issues
-2. Verify you're running the latest version
-3. Ensure your system meets the requirements above
+1. **[🐛 Report an Issue](https://github.com/scouzi1966/vesta-mac-dist/issues/new)** - Report bugs, crashes, or unexpected behavior
+2. **[💡 Request a Feature](https://github.com/scouzi1966/vesta-mac-dist/issues/new)** - Suggest new features or improvements  
+3. **[❓ Ask Questions](https://github.com/scouzi1966/vesta-mac-dist/issues)** - Get help with installation or usage
+
+Before creating a new issue:
+- Check existing [issues](https://github.com/scouzi1966/vesta-mac-dist/issues) for similar problems
+- Verify you're running the [latest version](https://github.com/scouzi1966/vesta-mac-dist/releases/latest)
+- Ensure your system meets the requirements above
 
 ## 📄 License
 
