@@ -1,4 +1,4 @@
-# Vesta macOS Distribution
+# Vesta macOS Distribution - Preview
 
 Official distribution repository for Vesta - AI-powered chat assistant with Apple Intelligence integration.
 
