@@ -44,7 +44,7 @@ All releases are code-signed with Developer ID and notarized by Apple for securi
 ### Privacy
 - **100% On-Device Processing** - All AI computations happen locally
 - **No Data Collection** - No analytics, telemetry, or user data sent to servers
-- **Microphone Privacy** - Voice input processed locally, never transmitted
+- **Microphone Privacy** - Voice input may be sent to Apple with Apple security for speach to Text
 - **Transparent Permissions** - Clear explanations for all requested permissions
 
 ## 📖 Usage
