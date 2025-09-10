@@ -2,6 +2,6 @@
 
 https://huggingface.co/scouzi1966/playwrite_adapter/tree/main/playwrite_adapter.fmadapter
 
-![LoRA Adapter control](images/adapter.png)
+![LoRA Adapter control](adapter.png)
 
 
