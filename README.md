@@ -15,7 +15,7 @@ All releases are code-signed with Developer ID and notarized by Apple for securi
 - **Apple Intelligence Integration** - On-device AI processing with Apple's Foundation Models framework
 - **System Prompt Control** - The system prompt (Instructions in Apple's jargon) can be modified
 - **Context use indicator** - Approximate context window usage
-- **Load LoRA adapters** - Allows loading custom adapaters trained with Apple's toolkit (https://developer.apple.com/apple-intelligence/foundation-models-adapter/)
+- **Load LoRA adapters** - Allows loading custom adapaters trained with Apple's toolkit (https://developer.apple.com/apple-intelligence/foundation-models-adapter/). An example adapter can be found here: https://github.com/scouzi1966/vesta-mac-dist/tree/main/adapters
 - **Voice Input** - Speech-to-text functionality for natural interaction
 - **LaTeX Math Rendering** - Support for mathematical equations and formulas
 - **Liquid Glass UI** - Beautiful macOS-native interface design
