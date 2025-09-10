@@ -2,6 +2,8 @@
 
 Official distribution repository for Vesta - AI-powered chat assistant with Apple Intelligence integration.
 
+For cli lovers, I've created something similare here: https://github.com/scouzi1966/maclocal-api
+
 ![Vesta AI Chat Interface](images/vesta-screen-1.png)
 
 ## 📥 Download
