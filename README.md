@@ -1,4 +1,4 @@
-# Vesta for macOS - Preview
+# Vesta for macOS - MacOS Tahoe 26 release
 
 Official distribution repository for Vesta - AI-powered chat assistant with Apple Intelligence integration.
 
