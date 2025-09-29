@@ -1,4 +1,4 @@
-# Vesta for macOS - MacOS Tahoe 26 release
+# Vesta for macOS Distribution repo - MacOS Tahoe 26 release
 
 ## Latest app release --> https://github.com/scouzi1966/vesta-mac-dist/releases/tag/v0.6.0
 
