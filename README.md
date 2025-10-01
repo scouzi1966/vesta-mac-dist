@@ -1,11 +1,12 @@
 # Vesta for macOS Distribution repo - MacOS Tahoe 26 release
 
-## Latest app release --> https://github.com/scouzi1966/vesta-mac-dist/releases/tag/v0.6.0
+## Latest app release --> https://github.com/scouzi1966/vesta-mac-dist/releases/tag/v0.7.0
 
-## 🚀 What's new in 0.6.0
-- **New Branding** - Cleaner branding and interface refinment
-- **Model Parameters** - Exposes controls for model sampling, top-p,top-k,Temperature and seed
-- **Add Sharing button** - Add ability of sharing each button to mail, notes etc
+## 🚀 What's new in 0.7.0
+- **Control model parameters with Vesta guidance** - Ask vesta expected model behavior of selected model parameters
+- **Share button** - Added Apple share button (Send To) for each response bubble
+- **Save Transcript** - Ability to save current transcript - with warnings when quitting
+- **Enhancements** - Bug fixes and various interface changes
   
 
 Official distribution repository for Vesta - AI-powered chat assistant with Apple Intelligence integration.
