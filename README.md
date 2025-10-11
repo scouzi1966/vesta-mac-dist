@@ -2,7 +2,7 @@
 
 ## Latest app release --> https://github.com/scouzi1966/vesta-mac-dist/releases/tag/v0.8.0
 
-## 🚀 What's new in 0.8.0
+## 🚀 What's new in 0.8.0 (Oct 11, 2025)
 - **Native french language support in GUI** - Make sure Languange and Regions, Siri settings are all aligned properly 
 - **Saved advanced settings** - Save the advanced settings (and restore) for experimentation
 - **Larger Audio buffer** - Improve mic support and voice recognition 
