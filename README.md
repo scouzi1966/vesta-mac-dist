@@ -7,6 +7,7 @@
 - **Saved advanced settings** - Save the advanced settings (and restore) for experimentation
 - **Larger Audio buffer** - Improve mic support and voice recognition 
 - **Enhancements** - HTML rendering for cut/paste of full content of bubble, streamline streaming, do not scroll at bottom
+- **Sticky settings** - Sticky advanced setting are preserved across app restarts. They can be reset to defaults
   
 
 Official distribution repository for Vesta - AI-powered chat assistant with Apple Intelligence integration.
