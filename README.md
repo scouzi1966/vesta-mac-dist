@@ -2,6 +2,8 @@
 
 ## Latest app release --> https://github.com/scouzi1966/vesta-mac-dist/releases/tag/v0.8.0
 
+# NOTICE: Some users are reporting issues with the v0.8.0. I invite users to use v0.7.0 if you have any issues. I'm working on identifying the root cause. Thank you for your patience. v0.7.0 is located here: --> https://github.com/scouzi1966/vesta-mac-dist/releases/tag/v0.7.0
+
 ## 🚀 What's new in 0.8.0 (Oct 11, 2025)
 - **Native french language support in GUI** - Make sure Languange and Regions, Siri settings are all aligned properly 
 - **Saved advanced settings** - Save the advanced settings (and restore) for experimentation
