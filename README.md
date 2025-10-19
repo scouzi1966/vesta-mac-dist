@@ -1,6 +1,14 @@
 # Vesta for macOS Distribution repo - MacOS Tahoe 26 release
 
-## Latest app release --> https://github.com/scouzi1966/vesta-mac-dist/releases/tag/v0.7.0
+## Latest app release --> https://github.com/scouzi1966/vesta-mac-dist/releases/tag/v0.8.1
+
+## 🚀 What's new in 0.8.1 (Oct 19, 2025) since 0.7.0
+- **Bug fix** - App was not opening
+- **Native french language support in GUI** - Make sure Languange and Regions, Siri settings are all aligned properly 
+- **Saved advanced settings** - Save the advanced settings (and restore) for experimentation
+- **Larger Audio buffer** - Improve mic support and voice recognition 
+- **Enhancements** - HTML rendering for cut/paste of full content of bubble, streamline streaming, do not scroll at bottom
+- **Sticky settings** - Sticky advanced setting are preserved across app restarts. They can be reset to defaults
 
 
 Official distribution repository for Vesta - AI-powered chat assistant with Apple Intelligence integration.
