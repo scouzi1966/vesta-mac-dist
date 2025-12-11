@@ -2,8 +2,15 @@
 
 ## Dec 10, 2025 --> Latest app release --> https://github.com/scouzi1966/vesta-mac-dist/releases/tag/v0.9.0
 
-## Vesta 0.9.0
+I am not trying to build a better LMStudio or Jan. This is more of a curated App to run models locally without requiring the technical knowledge or having to filter out the sea of models on HuggingFace. I selected Qwen3-VL as the vision model for now because of its benchmarks and footprint for consumer grade hardware. It also regular handles text-to-text quite well as well.
 
+Note that there is a known bug in Qwen3-VL models where it will loop indefinately in some cases and never complete. In this case stop the generation and tweak your prompt. This is a model behavior, not the App.
+reference: https://github.com/QwenLM/Qwen3-VL/issues/1611#issuecomment-3639175711
+
+## Vesta 0.9.0 
+
+# Multi-Model version with Side by side Apple Foundation on-device model and Qwen3-VL which user needs to download once
+ 
   ### 🆕 New in 0.9.0
   - **Vision capabilities** with Qwen3-VL model (describe images, analyze screenshots)
   - **Continuity Camera** input (capture photos directly from iPhone/iPad)
