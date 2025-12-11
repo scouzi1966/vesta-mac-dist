@@ -7,6 +7,9 @@ I am not trying to build a better LMStudio or Jan. This is more of a curated App
 Note that there is a known bug in Qwen3-VL models where it will loop indefinately in some cases and never complete. In this case stop the generation and tweak your prompt. This is a model behavior, not the App.
 reference: https://github.com/QwenLM/Qwen3-VL/issues/1611#issuecomment-3639175711
 
+## Read-up on Qwen3-VL and its capabilities:
+https://qwen.ai/blog?id=99f0335c4ad9ff6153e517418d48535ab6d8afef&from=research.latest-advancements-list
+
 ## Vesta 0.9.0 
 
 # Multi-Model version with Side by side Apple Foundation on-device model and Qwen3-VL which user needs to download once
