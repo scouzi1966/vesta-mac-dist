@@ -1,14 +1,44 @@
 # Vesta for macOS Distribution repo - MacOS Tahoe 26 release
 
-## Latest app release --> https://github.com/scouzi1966/vesta-mac-dist/releases/tag/v0.8.1
+## Latest app release --> https://github.com/scouzi1966/vesta-mac-dist/releases/tag/v0.9.0
 
-## 🚀 What's new in 0.8.1 (Oct 19, 2025) since 0.7.0
-- **Bug fix** - App was not opening
-- **Native french language support in GUI** - Make sure Languange and Regions, Siri settings are all aligned properly 
-- **Saved advanced settings** - Save the advanced settings (and restore) for experimentation
-- **Larger Audio buffer** - Improve mic support and voice recognition 
-- **Enhancements** - HTML rendering for cut/paste of full content of bubble, streamline streaming, do not scroll at bottom
-- **Sticky settings** - Sticky advanced setting are preserved across app restarts. They can be reset to defaults
+## Vesta 0.9.0
+
+  ### 🆕 New in 0.9.0
+  - **Vision capabilities** with Qwen3-VL model (describe images, analyze screenshots)
+  - **Continuity Camera** input (capture photos directly from iPhone/iPad)
+  - **Code syntax highlighting** for 20+ programming languages
+  - **Edit responses** inline after generation
+  - **HTML preview** for rendered content
+  - **Enhanced LaTeX** math rendering in blockquotes
+  - Improved rendering engine with real-time code block highlighting
+
+  ### 🚀 Features
+  - Apple Intelligence integration for on-device AI
+  - Vision mode for image understanding (llama.cpp + Qwen3-VL)
+  - Voice input with speech-to-text
+  - GitHub Flavored Markdown rendering
+  - LaTeX math rendering (KaTeX)
+  - Liquid Glass UI design
+  - App sandbox security
+  - Developer ID signed and Apple notarized
+
+  ### 📋 Installation
+  1. Download the DMG file below
+  2. Open the DMG and drag Vesta to Applications
+  3. Launch Vesta from Applications folder
+  4. On first run, right-click and select "Open" if prompted
+
+  ### 🔒 Privacy
+  - **Untethered from the internet** (except one-time Vision model download)
+  - All AI processing happens on-device
+  - No data sent to external servers
+
+  ### 📱 Requirements
+  - macOS 26.0 (Tahoe) or later
+  - Mac with Apple Silicon
+  - Microphone access (for voice input features)
+
 
 
 Official distribution repository for Vesta - AI-powered chat assistant with Apple Intelligence integration.
