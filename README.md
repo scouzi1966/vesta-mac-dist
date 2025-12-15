@@ -1,4 +1,4 @@
-# Vesta for macOS Distribution repo - MacOS Tahoe 26 release
+# Vesta AI for macOS Distribution repo - MacOS Tahoe 26 release (NOW WITH QWEN3-VL)
 
 ## Dec 10, 2025 --> Latest app release --> https://github.com/scouzi1966/vesta-mac-dist/releases/tag/v0.9.0
 
