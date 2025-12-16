@@ -152,3 +152,7 @@ Before creating a new issue:
 🤖 **Built with automated distribution pipeline**  
 🔒 **Notarized and code-signed for security**  
 🚀 **Ready for production deployment**
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=scouzi1966/vesta-mac-dist&type=Date)](https://star-history.com/#scouzi1966/vesta-mac-dist&Date)
