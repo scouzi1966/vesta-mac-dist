@@ -26,7 +26,8 @@ This is a major release that transforms Vesta from a two-backend chat app into a
 - **5 simultaneous backends** -- Apple Intelligence, MLX, llama.cpp, HuggingFace Explorer, and External AI (OpenAI-compatible) all active at once (Single chat routing)
 - **Runtime backend switching** -- switch between backends without restarting the app
 - **Per-backend settings** -- each backend has its own generation parameters, model selection, and configuration
-  
+- **HuggingFace Browser** -- Direct browse and download models from HuggingFace in-app
+
 #### MCP Server (Model Context Protocol) - Agentic Sidekick!
 - **Full MCP server** running on TCP loopback with token-based authentication
 - **Agentic Sidekick** Vesta detects Claude Code when you enable MCP - Claude code acts as an agent with a NLI (Natural Language Interface) to the app. Ask Claude to set things up, have a conversation with any other model!
