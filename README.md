@@ -17,14 +17,24 @@ Reference: https://github.com/QwenLM/Qwen3-VL/issues/1611#issuecomment-363917571
 
 **94 commits, 2 months of development since v0.9.0**
 
-This is a major release that transforms Vesta from a two-backend chat app into a full multi-modal AI platform with five backends, MCP integration, and media generation capabilities.
+This is a major release that transforms Vesta from a two-backend chat app into a full multi-modal AI platform with five backends, MCP integration, and media generation capabilities. Explore the world of AI beyond ChatGPT!
 
 ### 🆕 New in 0.9.5
 
 #### Multi-Backend Architecture
-- **5 simultaneous backends** -- Apple Intelligence, MLX, llama.cpp, HuggingFace Explorer, and External AI (OpenAI-compatible) all active at once
+- **HuggingFace Explorers** -- Leverage the HuggingFace Pro subscription and inference providers partners for ImageGen, Videogen, Image edit, Whipser etc. I am not affiliated with HuggingFace but the pro sub is worth it. 
+- **5 simultaneous backends** -- Apple Intelligence, MLX, llama.cpp, HuggingFace Explorer, and External AI (OpenAI-compatible) all active at once (Single chat routing)
 - **Runtime backend switching** -- switch between backends without restarting the app
 - **Per-backend settings** -- each backend has its own generation parameters, model selection, and configuration
+  
+#### MCP Server (Model Context Protocol) - Agentic Sidekick!
+- **Full MCP server** running on TCP loopback with token-based authentication
+- **Agentic Sidekick** Vesta detects Claude Code when you enable MCP - Claude code acts as an agent with a NLI (Natural Language Interface) to the app. Ask Claude to set things up, have a conversation with any other model!
+- **41+ tools** -- backend management, chat, model download/load/unload, vision analysis, settings, conversation history search, diagnostics, UI navigation
+- **6 resources** -- app state, models, conversation, settings, logs, system info
+- **7 prompts** -- guides for Vesta, MLX, llama.cpp, HuggingFace, and common workflows
+- **AI Sidekick** -- Claude Code integration for programmatic Vesta control
+- **Conversation history search** -- full-text search and read-only SQL queries against the SQLite message database
 
 #### HuggingFace Explorer (New Backend)
 - **Cloud inference** via 16+ providers (Cerebras, Groq, Together, Fireworks, SambaNova, Nebius, Replicate, and more)
@@ -48,13 +58,6 @@ This is a major release that transforms Vesta from a two-backend chat app into a
 - **28+ languages** with auto-detect
 - Per-segment timing and speed ratio reporting
 
-#### MCP Server (Model Context Protocol)
-- **Full MCP server** running on TCP loopback with token-based authentication
-- **41+ tools** -- backend management, chat, model download/load/unload, vision analysis, settings, conversation history search, diagnostics, UI navigation
-- **6 resources** -- app state, models, conversation, settings, logs, system info
-- **7 prompts** -- guides for Vesta, MLX, llama.cpp, HuggingFace, and common workflows
-- **AI Sidekick** -- Claude Code integration for programmatic Vesta control
-- **Conversation history search** -- full-text search and read-only SQL queries against the SQLite message database
 
 #### Jinja Template Support (minja)
 - Full Jinja2 template parsing for GGUF models via llama.cpp's minja library
