@@ -25,7 +25,6 @@ This is a major release that transforms Vesta from a two-backend chat app into a
 - **5 simultaneous backends** -- Apple Intelligence, MLX, llama.cpp, HuggingFace Explorer, and External AI (OpenAI-compatible) all active at once
 - **Runtime backend switching** -- switch between backends without restarting the app
 - **Per-backend settings** -- each backend has its own generation parameters, model selection, and configuration
-- **Smart routing** -- "All" filter mode with dual send buttons for AI and Vision requests
 
 #### HuggingFace Explorer (New Backend)
 - **Cloud inference** via 16+ providers (Cerebras, Groq, Together, Fireworks, SambaNova, Nebius, Replicate, and more)
@@ -41,7 +40,6 @@ This is a major release that transforms Vesta from a two-backend chat app into a
 #### Text-to-Speech (TTS)
 - **Kokoro** (82M) -- 46+ voices across 10+ languages, fast and high-quality
 - **Marvis** (100M/250M) -- conversational TTS with voice cloning support via reference audio
-- **Orpheus** (3B) -- Llama-based expressive TTS with emotion tags (`<laugh>`, `<sigh>`, `<gasp>`, etc.)
 - Models download on first use from HuggingFace
 
 #### Speech-to-Text (STT) -- WhisperKit
