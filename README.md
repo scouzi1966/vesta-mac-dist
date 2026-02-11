@@ -12,7 +12,9 @@ Vesta is a multi-backend AI chat application for macOS that runs models locally 
 
 ### Demo
 
-https://github.com/scouzi1966/vesta-mac-dist/raw/main/mcp-demo.mp4
+[![Vesta Demo](demo-preview.gif)](https://vesta-mac.pages.dev/mcp-demo.mp4)
+
+*Click to watch the full demo video*
 
 Note that there is a known bug in Qwen3-VL models where it will loop indefinitely in some cases and never complete. In this case stop the generation and tweak your prompt. This is a model behavior, not the app.
 Reference: https://github.com/QwenLM/Qwen3-VL/issues/1611#issuecomment-3639175711
