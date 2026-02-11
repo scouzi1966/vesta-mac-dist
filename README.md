@@ -22,7 +22,7 @@ This is a major release that transforms Vesta from a two-backend chat app into a
 ### 🆕 New in 0.9.5
 
 #### Multi-Backend Architecture
-- **HuggingFace Explorers** -- Leverage the HuggingFace Pro subscription and inference providers partners for ImageGen, Videogen, Image edit, Whipser etc. I am not affiliated with HuggingFace but the pro sub is worth it. 
+- **HuggingFace Explorer** -- Leverage the HuggingFace Pro subscription and inference providers partners for ImageGen, Videogen, Image edit, Whipser etc. I am not affiliated with HuggingFace but the pro sub is worth it. 
 - **5 simultaneous backends** -- Apple Intelligence, MLX, llama.cpp, HuggingFace Explorer, and External AI (OpenAI-compatible) all active at once (Single chat routing)
 - **Runtime backend switching** -- switch between backends without restarting the app
 - **Per-backend settings** -- each backend has its own generation parameters, model selection, and configuration
