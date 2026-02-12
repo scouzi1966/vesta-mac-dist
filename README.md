@@ -1,6 +1,7 @@
 # Vesta AI Explorer for macOS - macOS Tahoe 26
 
-### 🌐 [vesta-mac.pages.dev](https://vesta-mac.pages.dev)
+### 🌐 https://kruks.ai/
+
 
 ## Feb 11, 2026 --> Latest app release --> https://github.com/scouzi1966/vesta-mac-dist/releases/tag/v0.9.5
 
