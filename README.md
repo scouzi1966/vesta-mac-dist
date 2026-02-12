@@ -10,6 +10,8 @@
 
 Vesta is a multi-backend AI chat application for macOS that runs models locally on Apple Silicon. It supports five AI backends simultaneously -- Apple Intelligence, MLX, llama.cpp, HuggingFace Inference API, and OpenAI-compatible API servers -- with runtime switching, vision understanding, text-to-speech, speech-to-text, image generation, video generation, and a full MCP server for programmatic control.
 
+### NOTE: SIDEKICK ONLY WORKS WITH LOCALLY INSTALLED CLAUDE CODE AT THE MOMENT. SUPPORT FOR OTHER MODELS AS MCP CLIENTS COMING SOON ###
+
 ### Demo
 
 [![Vesta Demo](demo-preview.gif)](https://vesta-mac.pages.dev/mcp-demo.mp4)
