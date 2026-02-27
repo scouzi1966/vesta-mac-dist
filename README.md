@@ -1,4 +1,4 @@
-If you find this useful, please star the repo\! &nbsp; Also check out [afm CLI](https://github.com/scouzi1966/maclocal-api) — OpenAI-compatible local API server for Mac.
+If you find this useful, please star the repo! &nbsp; Also check out [afm CLI](https://github.com/scouzi1966/maclocal-api) — OpenAI-compatible local API server for Mac.
 
 # Vesta AI Explorer for macOS
 
@@ -8,19 +8,18 @@ Multi-backend AI chat application for macOS that runs models locally on Apple Si
 
 ### Demo
 
-[\![Vesta Demo](demo-preview.gif)](https://vesta-mac.pages.dev/mcp-demo.mp4)
+[![Vesta Demo](demo-preview.gif)](https://vesta-mac.pages.dev/mcp-demo.mp4)
 
 *Click to watch the full demo video*
 
 ## Install
-
 |  | Stable (v0.9.5) | Nightly (vesta-mac-next) |
 |---|---|---|
 | **Homebrew** | `brew install --cask scouzi1966/afm/vesta-mac` | `brew install --cask scouzi1966/afm/vesta-mac-next` |
-| **DMG** | [Download Vesta-0.9.5.dmg](https://github.com/scouzi1966/vesta-mac-dist/releases/download/v0.9.5/Vesta-0.9.5.dmg) | [Download Vesta-next.dmg](https://github.com/scouzi1966/vesta-mac-dist/releases/download/nightly-20260227-ecb93da/Vesta-next.dmg) |
-| **Release notes** | [v0.9.5](https://github.com/scouzi1966/vesta-mac-dist/releases/tag/v0.9.5) | [Latest nightly](https://github.com/scouzi1966/vesta-mac-dist/releases/tag/nightly-20260227-ecb93da) |
+| **DMG** | [Download Vesta-0.9.5.dmg](https://github.com/scouzi1966/vesta-mac-dist/releases/download/v0.9.5/Vesta-0.9.5.dmg) | [Download Vesta-next.dmg](https://github.com/scouzi1966/vesta-mac-dist/releases/download/nightly-20260227-8de93c3/Vesta-next.dmg) |
+| **Release notes** | [v0.9.5](https://github.com/scouzi1966/vesta-mac-dist/releases/tag/v0.9.5) | [Latest nightly](https://github.com/scouzi1966/vesta-mac-dist/releases/tag/nightly-20260227-8de93c3) |
 
-> [\!TIP]
+> [!TIP]
 > **Switching between stable and nightly:**
 > ```bash
 > brew uninstall --cask vesta-mac && brew install --cask scouzi1966/afm/vesta-mac-next   # switch to nightly
@@ -29,7 +28,7 @@ Multi-backend AI chat application for macOS that runs models locally on Apple Si
 
 ## What's new in Vesta-next
 
-> [\!IMPORTANT]
+> [!IMPORTANT]
 > The nightly build is the future stable release. It includes everything in the current stable plus:
 > - **Qwen3.5 dual-mode loading** — load as VLM (vision) or LLM-only (faster text inference)
 > - **Qwen3.5-35B-A3B MoE** — run a 35B model with only 3B active parameters
@@ -83,12 +82,11 @@ Multi-backend AI chat application for macOS that runs models locally on Apple Si
 
 ---
 
-[\![macOS](https://img.shields.io/badge/macOS-26+-blue.svg)](https://developer.apple.com/macos/)
-[\![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-M1+-orange.svg)](https://support.apple.com/en-us/116943)
+[![macOS](https://img.shields.io/badge/macOS-26+-blue.svg)](https://developer.apple.com/macos/)
+[![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-M1+-orange.svg)](https://support.apple.com/en-us/116943)
 
 Built with automated nightly pipeline | Notarized and code-signed | Apple Silicon native
 
 ## Star History
 
-[\![Star History Chart](https://api.star-history.com/svg?repos=scouzi1966/vesta-mac-dist&type=Date)](https://star-history.com/#scouzi1966/vesta-mac-dist&Date)
-
+[![Star History Chart](https://api.star-history.com/svg?repos=scouzi1966/vesta-mac-dist&type=Date)](https://star-history.com/#scouzi1966/vesta-mac-dist&Date)
