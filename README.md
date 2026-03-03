@@ -16,8 +16,8 @@ Multi-backend AI chat application for macOS that runs models locally on Apple Si
 |  | Stable (v0.9.5) | Nightly (vesta-mac-next) |
 |---|---|---|
 | **Homebrew** | `brew install --cask scouzi1966/afm/vesta-mac` | `brew install --cask scouzi1966/afm/vesta-mac-next` |
-| **DMG** | [Download Vesta-0.9.5.dmg](https://github.com/scouzi1966/vesta-mac-dist/releases/download/v0.9.5/Vesta-0.9.5.dmg) | [Download Vesta-next.dmg](https://github.com/scouzi1966/vesta-mac-dist/releases/download/nightly-20260227-8de93c3/Vesta-next.dmg) |
-| **Release notes** | [v0.9.5](https://github.com/scouzi1966/vesta-mac-dist/releases/tag/v0.9.5) | [Latest nightly](https://github.com/scouzi1966/vesta-mac-dist/releases/tag/nightly-20260227-8de93c3) |
+| **DMG** | [Download Vesta-0.9.5.dmg](https://github.com/scouzi1966/vesta-mac-dist/releases/download/v0.9.5/Vesta-0.9.5.dmg) | [Download Vesta-next.dmg](https://github.com/scouzi1966/vesta-mac-dist/releases/download/nightly-20260302-d050a1e/Vesta-next.dmg) |
+| **Release notes** | [v0.9.5](https://github.com/scouzi1966/vesta-mac-dist/releases/tag/v0.9.5) | [Latest nightly](https://github.com/scouzi1966/vesta-mac-dist/releases/tag/nightly-20260302-d050a1e) |
 
 > [!TIP]
 > **Switching between stable and nightly:**
