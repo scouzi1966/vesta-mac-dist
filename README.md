@@ -13,7 +13,7 @@ brew install --cask scouzi1966/afm/vesta-mac
 
 | Channel | Version | Download | Date |
 |---------|---------|----------|------|
-| **Stable** | 0.9.6 | [Vesta-0.9.6.dmg](https://github.com/scouzi1966/vesta-mac-dist/releases/download/v0.9.6/Vesta-0.9.6.dmg) | 2026-03-04 |
+| **Stable** | 0.9.7 | [Vesta-0.9.7.dmg](https://github.com/scouzi1966/vesta-mac-dist/releases/download/v0.9.7/Vesta-0.9.7.dmg) | 2026-05-08 |
 | Nightly | Vesta-next | [Vesta-next.dmg](https://github.com/scouzi1966/vesta-mac-dist/releases/download/Vesta-next/Vesta-next.dmg) | Vesta-next |
 
 ### Nightly via Homebrew
@@ -32,6 +32,18 @@ Vesta is a multi-backend AI chat application for macOS that runs models locally 
 
 Note that there is a known bug in Qwen3-VL models where it will loop indefinitely in some cases and never complete. In this case stop the generation and tweak your prompt. This is a model behavior, not the app.
 Reference: https://github.com/QwenLM/Qwen3-VL/issues/1611#issuecomment-3639175711
+
+---
+
+## Vesta 0.9.7 (May 8, 2026)
+
+MLX model support sync with maclocal-api and release pipeline hardening.
+
+### Changes
+- **Qwen 3.6 support** -- imported maclocal-api architecture mapping for Qwen 3.6 MLX models.
+- **Gemma 4 support** -- aligned Gemma 4 model handling and chat template fallback behavior with maclocal-api.
+- **Crash fix** -- corrected Gemma 4 VL attention reshape handling for prompt generation.
+- **Release publishing** -- rebuilt from scratch in Release, notarized, stapled, and published as a signed DMG.
 
 ---
 
