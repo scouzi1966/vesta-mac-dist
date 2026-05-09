@@ -27,6 +27,7 @@ Vesta is a multi-backend AI chat application for macOS that runs models locally 
 ### Demo
 
 [![Vesta Demo](demo-preview.gif)](https://vesta-mac.pages.dev/mcp-demo.mp4)
+[![SafeSkill 50/100](https://img.shields.io/badge/SafeSkill-50%2F100_Use%20with%20Caution-orange)](https://safeskill.dev/scan/scouzi1966-vesta-mac-dist)
 
 *Click to watch the full demo video*
 
