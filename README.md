@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/scouzi1966-vesta-mac-dist-badge.png)](https://mseep.ai/app/scouzi1966-vesta-mac-dist)
+
 # Vesta AI Explorer for macOS - macOS Tahoe 26
 
 ### [vesta-mac.pages.dev](https://vesta-mac.pages.dev)
